@@ -1,0 +1,82 @@
+#main{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+/* nav { 
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    align-items: center;
+    color:white;
+    height: 70px;
+    box-shadow:  0  10px blue;
+} */
+
+/* nav ul  {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 10px;
+}
+
+.navbar-brand{
+    color: white;
+}
+.nav-div {
+    height: 100%;
+} */
+/* 
+.search input {
+background: transparent;
+outline: none;
+border: none ;
+width: 500px;
+}
+ .search{
+    border: 1px solid white ;
+    border-radius: 5px;
+    padding: 5px 15px;
+ } */
+ /* .search img {
+    width: 20px;
+
+ } */
+
+ /* ::placeholder{
+    color: white;
+ } */
+
+ #footer{
+    height: 150px;
+    width: 100%;
+    margin: 20px 0 0 0;
+ }
+
+ .subscribe{
+    float: center;
+    margin: 0 auto;
+ }
+ .cards{
+    justify-content: space-around ;
+    background-color: rgb(243, 236, 236);
+ }
+
+ .flexbox > div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+   
+ }
+
+
+ 
