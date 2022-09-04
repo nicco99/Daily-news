@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "likes": 5,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "data": "new data",
+      "id": 2
+    },
+    {
+      "title": "dtfygujk",
+      "file": {},
+      "description": "\n            xcgvhbjnkm,",
+      "id": 3
+    },
+    {
+      "title": "dfgjhklk",
+      "url": "sdfghjkk",
+      "description": "\n            fghjkl;",
+      "id": 4
+    },
+    {
+      "title": "ghgjhk",
+      "url": "dfghj",
+      "description": "qwertyu\n            ",
+      "id": 5
+    },
+    {
+      "title": "ghjkl",
+      "url": "fgjhkkl",
+      "description": "wertyuiop\n            ",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

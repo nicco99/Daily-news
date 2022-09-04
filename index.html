@@ -20,7 +20,7 @@
                 <ul  class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item"><button type="button" id="headlines" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Headlines</button></li>
                     <li class="nav-item"><button type="button" id="business-news" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Bussiness</button></li>
-                    <!-- <li class="nav-item"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-sports">Sports</button></li> -->
+                    <li class="nav-item"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-sports">Send news</button></li>
                 </ul>
                 <form id="search-btn" class="d-flex form-inline my-2 my-lg-0">
                   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -101,11 +101,27 @@
         <div class="modal-header">
           <button type="button" class="close d-flex P-5 btn btn-danger" data-dismiss="modal" aria-label="Close">close</button>
 
-          <h5 class="modal-title" id="exampleModalLongTitle">Get sports update</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle">send some news for posting</h5>
           
         </div>
         <div class="modal-body">
-          <h1 class="justify-content-center">no sports found</h1>
+          <form id="news">
+            <div class="form-group">
+              <label for="exampleInputtitle">News title</label>
+              <input name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter news title">
+              
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="customFile">News picture url</label>
+              <input name="url" type="text" class="form-control" placeholder="enter url here" id="customFile" />
+            </div>
+            <br>
+            <textarea name="description" class="container-fluid">
+
+            </textarea>
+            <br>
+            <button type="submit" class="btn btn-primary">submit</button>
+          </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">go back</button>

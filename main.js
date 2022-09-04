@@ -125,7 +125,7 @@ function fetchSearch() {
             }else {
                 let h1 = document.createElement("h1")
                 h1.textContent=`No item found under ${searchValue}`
-                document.getElementById("search").appendChild(h1)
+                return document.getElementById("search").appendChild(h1)
             
             }
         }
@@ -135,3 +135,28 @@ function fetchSearch() {
 }
 
 document.getElementById("show").addEventListener("click",fetchSearch)
+
+
+//form data
+const form = document.getElementById("news")
+form.addEventListener("submit", collectData);
+
+function collectData(e) {
+e.preventDefault()
+const formData = new FormData(form)
+const data = Object.fromEntries(formData)
+
+return fetch("http://localhost:3000/posts", {
+    method: "POST",
+    headers: {
+        "content-type": "application/json"
+    },
+    body: JSON.stringify(data)
+})
+.then(resp=>resp.json())
+.then(data=>{
+    return alert("details submitted successfully")
+})
+
+
+}
