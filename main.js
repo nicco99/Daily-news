@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", fetching)
 //fetching all data
 function fetching () {
-    return fetch("https://newsapi.org/v2/everything?sources=techcrunch&apiKey=c579139b2ea142239473bb34044c4f34")
+    return fetch("https://newsapi.org/v2/everything?sources=techcrunch&apiKey=07c8924267b84647a5a0eaf7ff90bb91")
     .then(resp => resp.json())
     .then(data=>{
          let objData =data.articles;
@@ -34,7 +34,7 @@ objData.map((item)=>
 document.getElementById("headlines").addEventListener("click", fetchHeadlines)
 
 function fetchHeadlines() {
-    return fetch("https://newsapi.org/v2/top-headlines?country=us&category=politics&apiKey=c579139b2ea142239473bb34044c4f34")
+    return fetch("https://newsapi.org/v2/top-headlines?country=us&category=politics&apiKey=07c8924267b84647a5a0eaf7ff90bb91")
            .then(resp=>resp.json())
            .then(data=>{
             let newData = data.articles;
@@ -68,7 +68,7 @@ document.getElementById("business-news").addEventListener("click", fetchBusiness
 
 
 function fetchBusiness() {
-    return fetch("https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=c579139b2ea142239473bb34044c4f34")
+    return fetch("https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=07c8924267b84647a5a0eaf7ff90bb91")
            .then(resp=>resp.json())
            .then(data=>{
             let newData = data.articles;
@@ -98,7 +98,7 @@ document.querySelector("#search-btn").addEventListener("submit", (e)=>e.preventD
 
 function fetchSearch() {
     
-    return fetch("https://newsapi.org/v2/everything?sources=techcrunch&apiKey=c579139b2ea142239473bb34044c4f34")
+    return fetch("https://newsapi.org/v2/everything?sources=techcrunch&apiKey=07c8924267b84647a5a0eaf7ff90bb91")
            .then(resp=>resp.json())
            .then(data=>{
             let newData = data.articles;
