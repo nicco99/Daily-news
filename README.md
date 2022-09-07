@@ -1,4 +1,4 @@
-This is a web application to fetch news from a certain source and allow user to send some details
+#This is a web application to fetch news from a certain source and allow user to send some details
 <!-- how to run the application -->
 1. fork this application and clone this in your local computer
 2. cd into the folder and run the json server
@@ -12,13 +12,13 @@ you can also view various categories of news
 1. headlines 
 2. bussiness news
 
-<!--important tips -->
+#important tips
 in order to make another search ensure you reload the page.
 regards.
 ** you have to have an internet connection
 
 
-<!-- EVENTS PRESENT  -->
+# EVENTS PRESENT
 click for the buttons
 DOMContentLoaded
 submit for the details submission
@@ -30,5 +30,5 @@ json-server --watch db.json
 
 
 
-<!-- AUTHOR -->
+#AUTHOR
 NICHOLAS NJERU
