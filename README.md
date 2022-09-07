@@ -30,5 +30,5 @@ json-server --watch db.json
 
 
 
-#AUTHOR
+# AUTHOR
 NICHOLAS NJERU
