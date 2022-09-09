@@ -26,9 +26,9 @@ regards.
 
 
 # EVENTS PRESENT
-click for the buttons
-DOMContentLoaded
-submit for the details submission send news page
+1. click for the buttons
+2. DOMContentLoaded
+3. submit for the details submission send news page
 
 # json server
 also using json server to store form data 
